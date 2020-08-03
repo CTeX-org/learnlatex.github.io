@@ -3,7 +3,7 @@ title: "查看说明文档并获取帮助"
 ---
 <!-- Translation to be added _after_ English text completed. -->
 
-有数种途经以查看一个宏包或者文档类的说明文档。
+有数种途径以查看一个宏包或者文档类的说明文档。
 
 ## `texdoc`
 
@@ -38,7 +38,7 @@ title: "查看说明文档并获取帮助"
 
 LaTeX 小组有一个主要有其成员完成的书的[书籍清单](https://www.latex-project.org/help/books)。最值得一提的是 [Lamport 纂写的官方指南](https://www.informit.com/store/latex-a-document-preparation-system-9780201529838)以及所涉甚广的 [LaTeX Companion](https://www.informit.com/store/latex-companion-9780201362992)。
 
-其他旨在学习 LaTeX 的书籍有如：
+其他旨在学习 LaTeX 的书籍包括：
 
 
 - [_Guide to LaTeX_](https://www.informit.com/store/guide-to-latex-9780132651714)，由  Helmut
@@ -55,7 +55,7 @@ LaTeX 小组有一个主要有其成员完成的书的[书籍清单](https://www
 
 ## 寻求帮助
 
-你可以在许多在线论坛询问 LaTeX 的相关问题；其中当下风靡的也许是 [TeX - LaTeX StackExchange](https://tex.stackexchange.com)。当你遇到任何问题，首先最好给出一个清楚的例子 —— 也就是为人所熟知的“最小工作案例”（MWE）。这并不意味着这段代码真的起作用（不然你当然就不需要提问了！），而表示你已然尽力使问题代码清晰、独立并且最简。后者意味着它仅有能充分展示问题的文本。
+你可以在许多在线论坛询问 LaTeX 的相关问题；其中当下风靡的也许是 [TeX - LaTeX StackExchange](https://tex.stackexchange.com)。当你遇到任何问题，首先最好给出一个清楚的例子 —— 也就是为人所熟知的“最小工作案例”（MWE）。这并不意味着这段代码真的工作（不然你当然就不需要提问了！），而表示你已然尽力使问题代码清晰、独立并且最简。后者意味着它仅有能充分展示问题的文本。
 
 该如何构建一个 MWE？通常，最简单的方法是从：
 
@@ -66,9 +66,9 @@ Text
 \end{document}
 ```
 
-开始并逐行增加直到问题复现。或者，你也可以尝试“削减”你的原始文本，但是这可能耗费较长的时间。
+开始并逐行增加直到问题复现。或者，你也可以尝试逐渐“削减”你的原始文本的方法，但是这可能耗费较长的时间。
 
 如果你需要更多的文本来展示分页或者别的什么效果，则不妨尝试用 `lipsum` 这样的宏包以生成假文段落，以免测试文件过大。
 
 
-日志文件（即 log 文件）可能是另一个你想要获得的东西；它由 LaTeX 于每次运行时创建，和你的输入有着相同名字不过以拓展名 `.log` 结尾。你可能需要选择“显示拓展”以找出它，这依赖于你的桌面界面。
+你也许还希望得到你的日志文件（即 log 文件）；它由 LaTeX 于每次运行时创建，和你的输入有着相同名字不过以 `.log` 结尾。依赖于你的桌面环境，你可能需要选择“显示拓展”以找出它。
