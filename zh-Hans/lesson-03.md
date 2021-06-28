@@ -1,6 +1,6 @@
 ---
 layout: "lesson"
-lang: "zh"
+lang: "zh-Hans"
 title: "LaTeX 文档基本结构"
 description: "本课展示了 LaTeX 文档的基本结构，以及如何将其构建为一个PDF文件，还有用于控制 LaTeX 的主要特殊字符。"
 toc-anchor-text: "Document structure"
